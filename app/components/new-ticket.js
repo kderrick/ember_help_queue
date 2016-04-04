@@ -8,6 +8,7 @@ export default Ember.Component.extend({
         location: this.get('location'),
         comments: this.get('comments')
       };
+      this.set('comments', "");
       this.sendAction('save', params);
     }
   }
