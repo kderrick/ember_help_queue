@@ -1,1 +1,10 @@
 {{yield}}
+<form>
+  <label for="pairname">Pair Name:</label>
+  {{input value=pairname id="pairname"}}
+  <label for="location">Location:</label>
+  {{input value=location id="location"}}
+  <label for="comments">Comments:</label>
+  {{input value=comments id="comments"}}
+  <button {{action 'save'}}>Submit</button>
+</form>
