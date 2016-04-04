@@ -10,7 +10,9 @@
     </div>
     <div class="col-md-8">
       <h2>Current Tickets</h2>
-      {{ticket-queue}}
+      {{#each model as |ticket|}}
+        {{ticket-list ticket=ticket}}
+      {{/each}}
     </div>
   </div>
 </div>

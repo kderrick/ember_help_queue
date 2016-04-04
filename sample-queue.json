@@ -1,0 +1,12 @@
+{ "tickets": [
+  {
+    "pairname": "kyle and brad",
+    "location": "9G",
+    "comments": "trouble using ember"
+  },
+  {
+    "pairname": "Joe and Bob",
+    "location": "couches",
+    "comments": "trouble sleeping"
+  }
+]}
