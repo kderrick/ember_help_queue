@@ -1,7 +1,6 @@
 # Help-queue
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This application was built as practice using the ember.js framework, specifically, implementing computed properties and helpers.
 
 ## Prerequisites
 
